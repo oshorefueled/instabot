@@ -26,7 +26,7 @@ bot = InstaBot(
     user_blacklist={},
     max_like_for_one_tag=50,
     follow_per_day=150,
-    follow_time=2* 60* 60,
+    follow_time=3* 60* 60,
     unfollow_per_day=40,
     unfollow_break_min=25,
     unfollow_break_max=40,
@@ -35,7 +35,7 @@ bot = InstaBot(
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
     comment_list=[["wow", "hmmmm", "pleasant"],
-                  ["photo", "amazing", "nice!", "sweet", "snapshot"],
+                  ["photo", "amazing", "nice!", "sweet", "picture"],
                   ["is", "looks", "feels", "is really"],
                   ["great", "super", "good", "very good", "good", "wow",
                    "WOW", "cool", "GREAT","magnificent", "magical",
